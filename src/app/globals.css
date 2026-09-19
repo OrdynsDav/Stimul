@@ -52,6 +52,7 @@ section {
 .u-reveal {
   opacity: 1;
   transform: translateY(0);
+  width: 100%;
 }
 
 .u-reveal.is-ready:not(.is-visible) {

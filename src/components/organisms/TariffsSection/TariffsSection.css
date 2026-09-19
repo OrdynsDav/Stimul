@@ -9,7 +9,12 @@
 }
 
 .tariffs__title {
-    margin-bottom: 64px;
+    margin-bottom: 16px;
+}
+
+.tariffs__description {
+    max-width: 720px;
+    margin-bottom: 40px;
 }
 
 @media (max-width: 1080px) {

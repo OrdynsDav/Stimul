@@ -1,6 +1,7 @@
 export interface TariffCardProps {
   imgUrl: string;
   title: string;
+  description: string;
   cars: string[];
   features: string[];
   costs: string;
@@ -9,6 +10,6 @@ export interface TariffCardProps {
 
 export interface ReviewCardProps {
   rating: number;
-  text: string;  
+  text: string;
   client: string;
 }

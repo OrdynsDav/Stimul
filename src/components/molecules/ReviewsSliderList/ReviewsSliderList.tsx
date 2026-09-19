@@ -6,6 +6,7 @@ import { ReviewCard } from '../Cards/ReviewCard/ReviewCard'
 import { stableKey } from '@/utils/stableKeys'
 import { Splide, SplideSlide } from '@splidejs/react-splide'
 import "@splidejs/react-splide/css/core"
+import "./ReviewsSliderList.css"
 
 export default function ReviewsSliderList() {
     return (

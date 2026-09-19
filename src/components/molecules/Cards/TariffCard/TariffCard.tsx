@@ -15,7 +15,7 @@ export function TariffCard({ imgUrl, title, cars, features, costs, hasBadge }: T
             {hasBadge && <Text className="tariff-card__badge" as="span">Чаще всего выбирают</Text>}
             <figure className="tariff-card__media">
                 {imgUrl
-                    ? <Image src={imgUrl} alt="Картинка машины" width={656} height={328} />
+                    ? <Image src={imgUrl} alt={`${cars[0]} для тарифа «${title}»`} width={656} height={328} />
                     : <div className="tariff-card__empty"></div>
                 }
             </figure>
