@@ -1,0 +1,90 @@
+.text {
+    line-height: 1.5;
+}
+
+.text--lg {
+    font-size: 1.125rem;
+}
+
+.text--md {
+    font-size: clamp(0.875rem, 1.8vw, 1rem);
+}
+
+.text--sm {
+    font-size: .875rem;
+}
+
+.text--xs {
+    font-size: .75rem;
+}
+
+.text--italic {
+    font-style: italic;
+}
+
+.text--uppercase {
+    text-transform: uppercase;
+    letter-spacing: .04em;
+}
+
+.text--truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.text--weight-regular {
+    font-weight: 400;
+}
+
+.text--weight-medium {
+    font-weight: 500;
+}
+
+.text--weight-semibold {
+    font-weight: 600;
+}
+
+.text--weight-bold {
+    font-weight: 700;
+}
+
+.text--color-ink {
+    color: var(--color-ink);
+}
+
+.text--color-ink-deep {
+    color: var(--color-ink-deep);
+}
+
+.text--color-slate {
+    color: var(--color-slate);
+}
+
+.text--color-gray {
+    color: var(--color-gray);
+}
+
+.text--color-gray-dark {
+    color: var(--color-gray-dark);
+}
+
+.text--color-brand {
+    color: var(--color-brand);
+}
+
+.text--color-paper {
+    color: var(--color-paper);
+}
+
+.text--align-left {
+    text-align: left;
+}
+
+.text--align-center {
+    text-align: center;
+}
+
+.text--align-right {
+    text-align: right;
+}

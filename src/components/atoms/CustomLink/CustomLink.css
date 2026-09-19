@@ -1,0 +1,94 @@
+.btn {
+    color: inherit;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius);
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    padding: clamp(0.75rem, 2.5vw, 1rem) 32px;
+    transition: background-color .22s var(--transition-custom), color .22s var(--transition-custom), border-color .22s var(--transition-custom);
+}
+
+.btn--primary {
+    background-color: var(--color-paper);
+    color: var(--color-ink-on-light);
+}
+
+.btn--primary:hover {
+    background-color: var(--color-brand);
+    color: var(--color-paper);
+}
+
+.btn--outline {
+    background-color: transparent;
+    color: var(--color-paper);
+    border: 1px solid var(--color-gray);
+}
+
+.btn--outline:hover {
+    border-color: var(--color-brand);
+    background: var(--color-brand-soft);
+    color: var(--color-paper);
+}
+
+.btn--secondary {
+    height: 48px;
+    padding-inline: 22px;
+    border: 1px solid var(--color-line);
+    color: var(--color-paper);
+}
+
+.btn--secondary:hover {
+    background-color: var(--color-brand);
+    color: var(--color-paper);
+}
+
+.btn--underline-animation {
+    position: relative;
+    padding-block: 4px;
+    color: inherit;
+    opacity: .78;
+    transition: opacity .2s var(--transition-custom);
+    max-width: fit-content;
+    padding-inline: 0;
+}
+
+.btn--underline-animation::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: var(--color-brand);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .25s var(--transition-custom);
+}
+
+.btn--underline-animation:hover {
+    opacity: 1;
+}
+
+.btn--underline-animation:hover::after {
+    transform: scaleX(1);
+}
+
+.btn--underline-default {
+    font-size: 14.5px;
+    color: var(--color-muted);
+    border-bottom: 1px solid var(--color-line);
+    padding-block: 0 4px;
+    transition: color .2s var(--transition-custom), border-color .2s var(--transition-custom);
+    max-width: fit-content;
+    font-weight: normal;
+    padding-inline: 0;
+    border-radius: 0;
+}
+
+.btn--underline-default:hover {
+    color: var(--color-ink);
+    border-color: var(--color-brand);
+}

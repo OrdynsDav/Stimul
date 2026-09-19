@@ -1,0 +1,18 @@
+.reviews {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.reviews__head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.reviews__link {
+    display: flex;
+    gap: 4px;
+}

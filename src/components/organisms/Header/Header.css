@@ -1,0 +1,40 @@
+.header {
+    padding-block: 20px;
+    position: fixed;
+    inset: 0 0 auto 0;
+    z-index: 50;
+    background: transparent;
+    color: var(--color-paper);
+    transition: background-color .3s var(--transition-custom), color .3s var(--transition-custom), box-shadow .3s var(--transition-custom);
+}
+
+.header--scrolled {
+    background-color: rgba(10, 10, 11, .92);
+    box-shadow: 0 1px 0 var(--color-line-soft);
+    backdrop-filter: blur(12px);
+}
+
+.header__logo {
+    --logo-ratio: 3.85;
+    --logo-w: clamp(120px, 9.5vw, 160px);
+
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+    svg {
+        width: var(--logo-w);
+        height: calc(var(--logo-w) / var(--logo-ratio));
+    }
+}
+
+.header__logo-text {
+    font-size: 48px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+}
