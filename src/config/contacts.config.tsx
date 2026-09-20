@@ -20,7 +20,7 @@ export const contacts = [
     icon: <MaxIcon />,
   },
   {
-    href: "https://www.avito.ru/user/26099acf169d7314cd3af3b0de06b276/profile?src=sharing",
+    href: "https://www.avito.ru/user/3c8e414343aaf7a55faf2b88bd37d6a0/profile/all/predlozheniya_uslug?src=sharing&sellerId=3c8e414343aaf7a55faf2b88bd37d6a0",
     name: "Avito",
     icon: <AvitoIcon />,
   }
@@ -28,6 +28,6 @@ export const contacts = [
 
 export const contactsObject = {
   avito: {
-    href: "https://www.avito.ru/user/26099acf169d7314cd3af3b0de06b276/profile?src=sharing"
+    href: "https://www.avito.ru/user/3c8e414343aaf7a55faf2b88bd37d6a0/profile/all/predlozheniya_uslug?src=sharing&sellerId=3c8e414343aaf7a55faf2b88bd37d6a0"
   }
 }

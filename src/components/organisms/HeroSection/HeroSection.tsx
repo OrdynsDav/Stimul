@@ -24,7 +24,7 @@ export function HeroSection() {
                         <Heading className="hero__title" as="h1" size="xl" align="center" color="paper">
                             Машина подана. <br />Дальше — просто едем.
                         </Heading>
-                        <Text color="gray" align="center">Трансферы по городу, между городами и в аэропорт. Цену называем до поездки и не меняем её ни в пробке, ни ночью.</Text>
+                        <Text color="gray" align="center">Трансфер на межгород, встречи в аэропорту и на вокзалах. Цена не меняется ни при каких обстоятельствах</Text>
                     </div>
                     <div className="hero__actions u-reveal">
                         <CustomLink className="hero__btn" href={"#tariffs"}>Посмотреть тарифы</CustomLink>

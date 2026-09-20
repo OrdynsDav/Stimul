@@ -43,6 +43,6 @@ export const siteConfig = {
     "https://t.me/TRANSFER_STIMUL",
     "https://wa.me/message/F55MCJ6QOOSGL1",
     "https://max.ru/u/f9LHodD0cOI-7bmWpPdMK8Poc0LpqTnwIIwFYgYt0zgmoyg_5t7PRaTlifY",
-    "https://www.avito.ru/user/26099acf169d7314cd3af3b0de06b276/profile?src=sharing",
+    "https://www.avito.ru/user/3c8e414343aaf7a55faf2b88bd37d6a0/profile/all/predlozheniya_uslug?src=sharing&sellerId=3c8e414343aaf7a55faf2b88bd37d6a0",
   ],
 } as const;

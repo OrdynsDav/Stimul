@@ -12,7 +12,7 @@ export const tariffs: TariffCardProps[] = [
       "Кондиционер",
       "Детское кресло по запросу",
     ],
-    costs: "от 1500",
+    costs: "от 1000",
     hasBadge: false,
   },
   {
@@ -24,10 +24,9 @@ export const tariffs: TariffCardProps[] = [
     features: [
       "4 пассажира, 3 чемодана",
       "Просторный задний ряд",
-      "Вода в дорогу",
       "Встреча с табличкой",
     ],
-    costs: "от 2200",
+    costs: "от 1500",
     hasBadge: true,
   },
   {
@@ -42,7 +41,7 @@ export const tariffs: TariffCardProps[] = [
       "Тише в дороге",
       "Встреча с табличкой",
     ],
-    costs: "от 2900",
+    costs: "от 2200",
     hasBadge: false,
   },
   {
@@ -53,11 +52,12 @@ export const tariffs: TariffCardProps[] = [
     cars: ["Hongqi H5"],
     features: [
       "3 пассажира, 3 чемодана",
+      "Вода в дорогу",
       "Представительский салон",
       "Опытный водитель",
       "Встреча с табличкой",
     ],
-    costs: "от 4500",
+    costs: "от 3000",
     hasBadge: false,
   },
 ];
