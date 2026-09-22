@@ -41,7 +41,7 @@ export const tariffs: TariffCardProps[] = [
       "Тише в дороге",
       "Встреча с табличкой",
     ],
-    costs: "от 2200",
+    costs: "от 2000",
     hasBadge: false,
   },
   {
