@@ -44,7 +44,7 @@ export function TariffsSection() {
             <Section className="tariffs" variant="inverted" id="tariffs">
                 <Heading className="tariffs__title u-reveal" size="lg">Тарифы и автомобили</Heading>
                 <Text className="tariffs__description u-reveal" color="grayDark">
-                    Выберите автомобиль для городского, междугороднего или аэропортового трансфера. В стоимость входит поездка с водителем, а точную цену сообщаем до подачи машины.
+                    Выберите тариф или класс автомобиля для ваших нужд и соответствующий вашему бюджету. Точную стоимость поездки указываем при обращении.
                 </Text>
                 <ul className="tariffs__list u-reveal">
                     {tariffs.map(({ imgUrl, title, description, cars, features, costs, hasBadge }) => {
